@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mercacortex.ad_ficheros.ImagenActivity"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblImagen"
+        android:text="Descarga de imágenes"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tilImagen"
+        android:id="@+id/tilImagen"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtTilWeb"
+            android:hint="Introduzca URL"
+            android:inputType="date"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tilBtnWeb"
+            android:text="Ir a URL"
+            android:onClick="abrirURL"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ivwImagen"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tilImagen"
+            android:id="@+id/btnPrev"
+            android:text="Anterior"
+            android:onClick="prev"
+            />
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tilImagen"
+            android:id="@+id/btnNext"
+            android:text="Siguiente"
+            android:onClick="next"
+            />
+
+
+
+</RelativeLayout>
