@@ -1,4 +1,4 @@
-package com.mercacortex.ad_ficheros;
+package com.mercacortex.ad_ficheros.activity;
 
 import android.os.Bundle;
 import android.os.CountDownTimer;

@@ -1,4 +1,4 @@
-package com.mercacortex.ad_ficheros;
+package com.mercacortex.ad_ficheros.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,10 +7,6 @@ import android.view.View;
 import android.widget.Button;
 
 import com.mercacortex.ad_ficheros.R;
-import com.mercacortex.ad_ficheros.activity.AgendaActivity;
-import com.mercacortex.ad_ficheros.activity.AlarmaActivity;
-import com.mercacortex.ad_ficheros.activity.ConexionActivity;
-import com.mercacortex.ad_ficheros.activity.PeriodoActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -54,7 +50,28 @@ public class MainActivity extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, CambioActivity.class);
+                startActivity(intent);
+            }
+        });
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, ImagenActivity.class);
+                startActivity(intent);
+            }
+        });
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, ConexionActivity.class);
+                startActivity(intent);
+            }
+        });
+        btn7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, SubidaActivity.class);
                 startActivity(intent);
             }
         });

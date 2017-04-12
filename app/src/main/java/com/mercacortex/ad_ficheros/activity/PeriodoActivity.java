@@ -1,4 +1,4 @@
-package com.mercacortex.ad_ficheros;
+package com.mercacortex.ad_ficheros.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
