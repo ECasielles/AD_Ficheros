@@ -21,7 +21,6 @@ public class AgendaActivity extends AppCompatActivity {
     RecyclerAdapter adapter;
     RecyclerView recyclerView;
     Memoria memoria;
-    static final int NEW_CONTACT = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

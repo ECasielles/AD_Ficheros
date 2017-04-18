@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toRightOf="@id/lblContador"
-            android:text="0:00"
+            android:text="00:00:00"
             android:id="@+id/txvContador"
             />
     </RelativeLayout>
@@ -33,7 +33,6 @@
         android:text="Comenzar"
         android:id="@+id/btnComenzar"
         android:layout_below="@id/rluTimer"
-        android:onClick="countDown"
         />
 
 </RelativeLayout>

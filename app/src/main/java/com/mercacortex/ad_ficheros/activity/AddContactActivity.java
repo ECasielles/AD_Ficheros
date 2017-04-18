@@ -15,7 +15,6 @@ public class AddContactActivity extends AppCompatActivity {
     String ruta = "contactos.txt";
     EditText edtNombre, edtTelefono, edtEmail;
     Button btnNuevo;
-    static final int NEW_CONTACT = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
