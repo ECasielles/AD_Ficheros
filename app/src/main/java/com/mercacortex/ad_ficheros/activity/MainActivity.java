@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, CambioActivity.class);
+                Intent intent = new Intent(MainActivity.this, ConexionActivity.class);
                 startActivity(intent);
             }
         });
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         btn6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ConexionActivity.class);
+                Intent intent = new Intent(MainActivity.this, CambioActivity.class);
                 startActivity(intent);
             }
         });
